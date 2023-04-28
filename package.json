@@ -1,0 +1,24 @@
+{
+    "name": "crawlee-puppeteer-javascript",
+    "version": "0.0.1",
+    "type": "module",
+    "description": "This is an example of an Apify actor.",
+"dependencies": {
+    "apify": "^3.0.0",
+    "crawlee": "^3.0.0",
+    "puppeteer": "*",
+    "dotenv": "^10.0.0",
+    "puppeteer-extra": "^3.1.18",
+    "puppeteer-extra-plugin-stealth": "^2.4.14"
+},
+    "devDependencies": {
+        "@apify/eslint-config": "^0.3.1",
+        "eslint": "^8.36.0"
+    },
+    "scripts": {
+        "start": "node src/main.js",
+        "test": "echo \"Error: oops, the actor has no tests yet, sad!\" && exit 1"
+    },
+    "author": "It's not you it's me",
+    "license": "ISC"
+}
